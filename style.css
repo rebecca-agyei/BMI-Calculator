@@ -1,7 +1,4 @@
 
-
-
-
 .container {
     width: 50%;
     border: 3px solid rebeccapurple;
@@ -21,7 +18,7 @@ body{
    }
    
    input[type=number]{
-       width: 70%;
+       width: 50%;
        padding: 3%;
        margin: 4%;
        background-color: whitesmoke;
