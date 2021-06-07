@@ -1,8 +1,6 @@
 
 const bmi = document.getElementById("btn")
 
-
-
 bmi.addEventListener("click", function() {
 
     let weight = document.getElementById("weight").value;
