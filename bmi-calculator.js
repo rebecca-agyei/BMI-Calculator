@@ -7,8 +7,6 @@ bmi.addEventListener("click", function() {
 
     let weight = document.getElementById("weight").value;
     let height = document.getElementById("height").value;
-        
-    let bmiMessage;
 
     let bmi = Math.round (weight/(height*height));
     
@@ -26,13 +24,10 @@ bmi.addEventListener("click", function() {
         bmiResult.innerHTML = "Your BMI is " + bmi + " so you have a normal weight" ;
         
     }
-    else (bmi>24.9) {
+    else if (bmi>24.9) {
         bmiResult.innerHTML = "Your BMI is " + " " + bmi + " so you are overweight." ;
           
     }
 
     
-
-    }
-
-)
+})
